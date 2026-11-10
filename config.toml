@@ -9,9 +9,12 @@ parallel-jobs = 1
 [YouTube-Morphe]
 module-prop-name = "fytsbk-youtube"
 app-name = "YouTube"
+<<<<<<< HEAD
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "fytsbk"
+=======
+>>>>>>> 34e9533ba51e81e4889325d07d169bdd6d9b30f8
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -20,9 +23,12 @@ enable-update-checks = true
 [Music-Morphe]
 module-prop-name = "fytsbk-music"
 app-name = "Music"
+<<<<<<< HEAD
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "fytsbk"
+=======
+>>>>>>> 34e9533ba51e81e4889325d07d169bdd6d9b30f8
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -32,20 +38,17 @@ enable-update-checks = true
 [Reddit-Morphe]
 enabled = false
 app-name = "Reddit"
-rv-brand = "Morphe"
-build-mode = "both"
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 dpi = "120-640dpi"
+enable-update-checks = true
 
 [GooglePhotos]
 enabled = false
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
-cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 enable-update-checks = true
@@ -53,26 +56,8 @@ enable-update-checks = true
 [Twitter]
 enabled = false
 patches-source = "crimera/piko-newx"
-cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 version = "latest"
 included-patches = "'NewX: Restore Twitter branding'"
 enable-update-checks = true
-
-[Music]
-enabled = false
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-
-[YouTube]
-enabled = false
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Twitch]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
